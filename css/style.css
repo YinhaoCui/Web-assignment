@@ -1,0 +1,152 @@
+body{
+    font-family: Arial, sans-serif;
+    width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+    background-image: url("../img/dalfcs.jpg");
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    background-size: 1200px;
+
+
+}
+h3{
+    color:#F2Ac00;
+    font-size: 20px;
+}
+#secondaryNav{
+    height: 36px;
+    background-color: #707372;
+    text-align: right;
+}
+#secondaryNav ul li{
+    display:inline;
+    margin-top: 18px;
+}
+#secondaryNav ul li a:link,
+#secondaryNav ul li a:visited,
+#secondaryNav ul li a:hover,
+#secondaryNav ul li a:active{
+    color: white;
+    text-decoration:none;
+}
+#secondaryNav ul li a{
+    margin-right:10px;
+}
+#mainHeading{
+
+    height: 70px;
+    width:400px;
+
+}
+#mainHeading a:link,
+#mainHeading a:visited,
+#mainHeading a:hover,
+#mainHeading a:active{
+    color: black;
+    text-decoration:none;
+}
+#searchForm{
+    float:right;
+    margin-top: -60px;
+
+}
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+header{
+    height: 120px;
+    overflow: auto;
+    background-color: white;
+    display:inline;
+}
+#primaryNav{
+    height:50px;
+    overflow: auto;
+    background-color: #F3F3F3;
+    width: 1200px;
+    position: sticky;
+    top: 0;
+
+}
+#primaryNav ul li{
+    display:inline;
+    margin-right: 15px;
+    float: left;
+    margin-top: 15px;
+
+
+}
+#grading{
+    float:right
+}
+footer{
+    height: 100px;
+    background-color: black;
+}
+#content{
+    width:800px ;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 16px;
+    margin-bottom: 80px;
+    padding: 30px;
+
+
+}
+#contact ul{
+    list-style-type:disc;
+    margin-left: 40px;
+}
+#footerNav{
+    text-align: right;
+    float: right;
+    margin-top: 40px;
+}
+#footerNav a{
+    margin-right: 20px;
+
+}
+#copyright{
+    color:white;
+    float: left;
+    margin-top: 40px;
+}
+#footerNav a:link,
+#footerNav a:visited,
+#footerNav a:hover,
+#footerNav a:active{
+    color: white;
+    text-decoration:none;
+    font-size: 11px;
+}
+#primaryNav ul li a:link,
+#primaryNav ul li a:visited,
+#primaryNav ul li a:active{
+    color: black;
+    text-decoration:none;
+}#primaryNav ul li a:hover{
+    background-color: black;
+    color: #F2Ac00;
+ }
+#grading{
+    width: 300px;
+    height:200px;
+    border-collapse:collapse;
+
+}
+#grading ul li{
+    font-size:11px;
+    text-align: left;
+    padding-top:5px;
+    padding-bottom:4px;
+    border:1px solid green;
+
+}
+.back{
+ background-color: white;
+
+}
